@@ -39,26 +39,11 @@
 		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
 
-		<style type="text/css">
-			
-			.single-card{
-				background-color: #00ff00;
-				width: 150px;
-				height: 150px;
-				border-radius: 70px;
-				margin-left:50px;
-				margin-top: 50px;
-				
-
-			}
-			
-			
-		
 
 		</style>
 	</head>
 		<body>
-			
+
 
 		<!--[if lt IE 8]>
 			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -245,42 +230,15 @@
                <div class="row">
 					<div class="inner-payment">
 					    <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="section-headline text-center row-fluid ">
-                                
-                                <p style="margin-top: 35px;"> <h3>ROOM ID : 54896</h3>Please Provide Room id to Your Friend to join Room </p>
+                            <div class="section-headline text-center row-fluid" style="margin-top: 50px;">
+                               <h1>Please Enter Room ID Below</h1>
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="card-list" style="align-items: center;">
-                                <div class="single-card">
-                               		
-                                    <a href="#"><img src="img/brand/player.png" alt=""></a><br>
-                                    
-                                   
-                                </div>
-                                <div class="single-card">
-                                	
-                                    <a href="#"><img src="img/brand/player.png" alt=""></a>
-                                    
-                                </div>
-                                <div class="single-card">
-                                	
-                                    <a href="#"><img src="img/brand/player.png" alt=""></a>
-                                     
-                                </div>
-                                <div class="single-card">
-                                	
-                                    <a href="#"><img src="img/brand/player.png" alt=""></a>
-                                    
-                                </div>
-                                
-
-                                <div style="padding-top:20px; ">
-                                	<button type="button" class="btn btn-success btn-lg btn-block" >Enroll Team</button><br>
-                                	<button type="button" class="btn btn-danger btn-lg btn-block">Exit</button>
-                                	
-                                
-                            </div>
+                         <form action="www.google.com" method="post">
+                                <input  class="form-control form-control-lg" type="text" placeholder="Enter Room ID"><br>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Join</button>
+                         </form>
                         </div>
 					</div>
                 </div>
