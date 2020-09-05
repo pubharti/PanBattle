@@ -45,20 +45,45 @@
 				background-color: #00ff00;
 				width: 150px;
 				height: 150px;
-				border-radius: 70px;
+				border-radius: 100px;
 				margin-left:50px;
-				margin-top: 50px;
-				
 
 			}
+			.players{
+				margin-top: 120px;
+				margin-left: 10px;
+				color: #00ff00;
+			}
+			.player2
+			{   
+				position: relative;
+				top:10px;
+				left: -560px;
+			}
+			.player3
+			{   position: relative;
+				top: -20px;
 			
+				left: 490px;
+			}
+			.player4
+			{   
+				position: relative;
+				top: -20px;
 			
-		
+				left: 620px;
+			}
+			.player1
+			{   
+				position: relative;
+				top:10px;
+				left: -700px;
+			}
 
 		</style>
 	</head>
 		<body>
-			
+
 
 		<!--[if lt IE 8]>
 			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -245,42 +270,13 @@
                <div class="row">
 					<div class="inner-payment">
 					    <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="section-headline text-center row-fluid ">
-                                
-                                <p style="margin-top: 35px;"> <h3>ROOM ID : 54896</h3>Please Provide Room id to Your Friend to join Room </p>
+                            <div class="section-headline text-center row-fluid" style="margin-top: 30px;">
+                               <h1>Room  Creator</h1>
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="card-list" style="align-items: center;">
-                                <div class="single-card">
-                               		
-                                    <a href="#"><img src="img/brand/player.png" alt=""></a><br>
-                                    
-                                   
-                                </div>
-                                <div class="single-card">
-                                	
-                                    <a href="#"><img src="img/brand/player.png" alt=""></a>
-                                    
-                                </div>
-                                <div class="single-card">
-                                	
-                                    <a href="#"><img src="img/brand/player.png" alt=""></a>
-                                     
-                                </div>
-                                <div class="single-card">
-                                	
-                                    <a href="#"><img src="img/brand/player.png" alt=""></a>
-                                    
-                                </div>
-                                
-
-                                <div style="padding-top:20px; ">
-                                	<button type="button" class="btn btn-success btn-lg btn-block" >Enroll Team</button><br>
-                                	<button type="button" class="btn btn-danger btn-lg btn-block">Exit</button>
-                                	
-                                
-                            </div>
+                           <button type="button" class="btn btn-primary btn-lg btn-block">Create New Room</button>
+						   <button type="button" class="btn btn-primary btn-lg btn-block">Join Room</button>
                         </div>
 					</div>
                 </div>
